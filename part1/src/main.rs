@@ -19,7 +19,7 @@ fn print_population(adults: u64, kids: u32, buildings: u32) {
     println!("        Kids: {}", kids);
     println!("    Buildings: {}", buildings);
     println!("    Buildings per person: {}\n", buildings_per_person);
-
+ 
     if buildings_per_person >= 1.0 {
         println!("Everyone can have their own building!");
     } else {
